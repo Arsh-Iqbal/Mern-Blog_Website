@@ -73,13 +73,13 @@ export default function FooterCom() {
         <Footer.Divider />
 
 
-        <div className='w-full sm:flex sm:items-center sm:justify-between'>
+        <div className='w-full flex flex-col gap-y-2  sm:flex-row items-center sm:justify-between'>
           <Footer.Copyright
             href='#'
             by="Arsh's blog"
             year={new Date().getFullYear()}
           />
-          <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
+          <div className="flex gap-8 sm:mt-0 mt-4 sm:justify-center justify-between  w-[80%] sm:w-max ">
             <Footer.Icon href='https://www.facebook.com/arsh.iqbal.9066' icon={BsFacebook}/>
             <Footer.Icon href='https://www.linkedin.com/in/arsh-iqbal-338485313' icon={BsLinkedin}/>
             <Footer.Icon href='https://x.com/Arsh_024' icon={BsTwitter}/>
